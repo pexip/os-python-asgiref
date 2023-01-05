@@ -1,0 +1,154 @@
+python-asgiref (3.6.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update d/copyright with new years.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 05 Jan 2023 14:48:05 +0000
+
+python-asgiref (3.5.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable):
+    + python3-asgiref: Drop versioned constraint on python3-daphne and
+      python3-django-channels in Breaks.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Oct 2022 00:21:13 +0100
+
+python-asgiref (3.5.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1.0.
+
+ -- Michael Fladischer <fladi@debian.org>  Sun, 18 Sep 2022 21:12:51 +0000
+
+python-asgiref (3.5.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Use github tags instead of releases for d/watch.
+  * Depend on python3-all for autopkgtests.
+  * Update year in d/copyright.
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 24 Jan 2022 08:35:35 +0000
+
+python-asgiref (3.4.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update d/watch to work with github again.
+  * Bump Standards-Version to 4.6.0.
+  * Add python3-pytest-asyncio to Build-Depends, required by tests.
+  * Enable upstream testsuite for autopkgtests.
+
+ -- Michael Fladischer <fladi@debian.org>  Sat, 04 Sep 2021 20:03:14 +0000
+
+python-asgiref (3.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 4.5.1.
+  * Use uscan version 4.
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 30 Nov 2020 18:24:54 +0100
+
+python-asgiref (3.3.0-1) unstable; urgency=low
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Michael Fladischer ]
+  * New upstream release.
+  * Add d/upstream/metadata.
+
+ -- Michael Fladischer <fladi@debian.org>  Wed, 14 Oct 2020 20:44:26 +0200
+
+python-asgiref (3.2.10-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 30 Jun 2020 16:27:09 +0200
+
+python-asgiref (3.2.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump debhelper version to 13.
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 08 Jun 2020 20:58:07 +0200
+
+python-asgiref (3.2.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 4.5.0.
+  * Set Rules-Requires-Root: no.
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 16 Mar 2020 10:19:00 +0100
+
+python-asgiref (3.2.3-1) unstable; urgency=low
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Michael Fladischer ]
+  * New upstream release.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 12 Nov 2019 08:34:32 +0100
+
+python-asgiref (3.2.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Clean up pytest artifacts to allow two builds in a row.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 10 Sep 2019 19:52:49 +0200
+
+python-asgiref (3.2.0-1) unstable; urgency=low
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Michael Fladischer ]
+  * New upstream release.
+  * Bump debhelper version to 12.
+  * Bump Standards-Version to 4.4.0.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 01 Aug 2019 07:52:14 +0200
+
+python-asgiref (2.3.2-1) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Clean up files in .pytest_cache/ to allow two builds in a row.
+
+ -- Michael Fladischer <fladi@debian.org>  Sun, 23 Dec 2018 17:36:08 +0100
+
+python-asgiref (2.3.2-1~exp1) experimental; urgency=low
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Michael Fladischer ]
+  * Add debian/gbp.conf.
+  * New upstream release.
+  * Bump debhelper compatibility and version to 11.
+  * Run wrap-and-sort -bast to reduce diff size of future changes.
+  * Add python3-async-timeout to Build-Depends to satisfy test
+    requirements.
+  * Enable autopkgtest-pkg-python testsuite.
+  * Add Breaks for channels 1.x packages:
+    + python3-asgi-ipc
+    + python3-asgi-redis
+    + python3-daphne
+    + python3-django-channels
+  * Update long description to match 2.x ASGI standard.
+  * Bump Standards-Version to 4.2.1.
+  * Add python3-pytest to Build-Depends.
+  * Use pytest to run tests during build.
+  * Clean up pytest artifacts to allow two builds in a row.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 28 Aug 2018 18:22:45 +0200
+
+python-asgiref (1.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #868665).
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 17 Jul 2017 12:49:07 +0200
