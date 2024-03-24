@@ -8,7 +8,7 @@ Copyright: 2015, Django Software Foundation <foundation@djangoproject.com>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2017-2023, Michael Fladischer <fladi@debian.org>
+Copyright: 2017-2024, Michael Fladischer <fladi@debian.org>
 License: BSD-3-clause
 
 License: BSD-3-clause
