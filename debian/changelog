@@ -1,3 +1,22 @@
+python-asgiref (3.8.1-1) unstable; urgency=low
+
+  [ Alexandre Detiste ]
+  * remove old build-dependency on python3-six
+
+  [ Michael Fladischer ]
+  * New upstream version 3.8.1
+  * Update year in d/copyright.
+  * Build using pybuild-plugin-pyproject and dh-sequence-python3.
+
+ -- Michael Fladischer <fladi@debian.org>  Sun, 24 Mar 2024 17:55:45 +0000
+
+python-asgiref (3.7.2-1) unstable; urgency=medium
+
+  * New upstream version 3.7.2
+  * Bump Standards-Version to 4.6.2.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 13 Jun 2023 21:31:54 +0000
+
 python-asgiref (3.6.0-1+pexip24u4) pexip-bookworm; urgency=medium
 
   * New versioning scheme
